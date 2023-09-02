@@ -208,13 +208,28 @@
       "settings": { "foreground": "var(pink)", "fontStyle": "italic" }
     },
     {
-      "name": "Entity name",
+      "name": "Function definition",
       "scope": "entity.name.function",
       "settings": { "foreground": "var(blue5)" }
     },
     {
       "name": "Entity name",
+      "scope": "meta.function-call entity.name.function",
+      "settings": { "foreground": "var(blue)" }
+    },
+    {
+      "name": "Entity name",
       "scope": "entity.name - (entity.name.section | entity.name.tag | entity.name.label)",
+      "settings": { "foreground": "var(orange)" }
+    },
+    {
+      "name": "Entity name type",
+      "scope": "entity.name.type - string.entity.name.type",
+      "settings": { "foreground": "var(orange)" }
+    },
+    {
+      "name": "Entity name package",
+      "scope": "entity.name.package - string.entity.name.package",
       "settings": { "foreground": "var(orange)" }
     },
     {
