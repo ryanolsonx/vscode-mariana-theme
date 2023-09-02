@@ -26,7 +26,8 @@
     "white3": "#d8dee9",
     "white4": "#c1c3c6",
     "white5": "#393e42",
-    "white6": "#616870"
+    "white6": "#616870",
+    "white7": "#3e4347"
   },
   "colors": {
     "editorCursor.foreground": "#f9ae58",
@@ -39,7 +40,6 @@
     "editorGroup.emptyBackground": "#1c2228",
     "editorGroupHeader.tabsBackground": "#1c2228",
     "tab.inactiveBackground": "#1c2228",
-    "panel.background": "#1c2228",
     "badge.background": "#99c794",
     "badge.foreground": "#1c2228",
     "sideBar.background": "#1c2228",
@@ -67,7 +67,31 @@
     "editorSuggestWidget.highlightForeground": "#ffffff",
     "editorSuggestWidget.selectedForeground": "#f7f7f7",
     "editorBracketMatch.background": "#f9ae5800",
-    "editorBracketMatch.border": "#f9ae58"
+    "editorBracketMatch.border": "#f9ae58",
+    "editorWidget.background": "#1c2228",
+    "sideBarSectionHeader.background": "#1c2228",
+    "editorIndentGuide.activeBackground1": "#47515b",
+    "editorIndentGuide.activeBackground2": "#47515b",
+    "editorIndentGuide.activeBackground3": "#47515b",
+    "editorIndentGuide.activeBackground4": "#47515b",
+    "editorIndentGuide.activeBackground5": "#47515b",
+    "editorIndentGuide.activeBackground6": "#47515b",
+    "editorIndentGuide.background1": "#47515b99",
+    "editorIndentGuide.background2": "#47515b99",
+    "editorIndentGuide.background3": "#47515b99",
+    "editorIndentGuide.background4": "#47515b99",
+    "editorIndentGuide.background5": "#47515b99",
+    "editorIndentGuide.background6": "#47515b99",
+    "editorBracketHighlight.foreground1": "#f9ae58",
+    "editorBracketHighlight.foreground2": "#c695c6",
+    "editorBracketHighlight.foreground3": "#5fb4b4",
+    "editorLineNumber.foreground": "#828b96",
+    "textLink.foreground": "#5c99d6",
+    "list.activeSelectionBackground": "#454a4e",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#454a4e",
+    "list.inactiveSelectionForeground": "#ffffff",
+    "list.hoverBackground": "#292f35"
   },
   "tokenColors": [
     {
@@ -77,7 +101,7 @@
     },
     {
       "name": "String",
-      "scope": "string",
+      "scope": "string, support.type.property-name.json",
       "settings": { "foreground": "#99c794" }
     },
     {
@@ -189,7 +213,7 @@
     },
     {
       "name": "Tag name",
-      "scope": "entity.name.tag",
+      "scope": "entity.name.tag, support.class.component",
       "settings": { "foreground": "#ec5f66" }
     },
     {
@@ -360,7 +384,7 @@
     },
     {
       "name": "CSS Properties",
-      "scope": "support.type.property-name",
+      "scope": "support.type.property-name - support.type.property-name.json",
       "settings": { "foreground": "#d8dee9" }
     },
     {

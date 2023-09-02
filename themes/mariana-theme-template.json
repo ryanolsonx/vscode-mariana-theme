@@ -26,7 +26,8 @@
     "white3": "#d8dee9",
     "white4": "#c1c3c6",
     "white5": "#393e42",
-    "white6": "#616870"
+    "white6": "#616870",
+    "white7": "#3e4347"
   },
   "colors": {
     "editorCursor.foreground": "var(orange)",
@@ -39,7 +40,6 @@
     "editorGroup.emptyBackground": "var(darkblue)",
     "editorGroupHeader.tabsBackground": "var(darkblue)",
     "tab.inactiveBackground": "var(darkblue)",
-    "panel.background": "var(darkblue)",
     "badge.background": "var(green)",
     "badge.foreground": "var(darkblue)",
     "sideBar.background": "var(darkblue)",
@@ -67,7 +67,31 @@
     "editorSuggestWidget.highlightForeground": "var(white)",
     "editorSuggestWidget.selectedForeground": "var(white2)",
     "editorBracketMatch.background": "var(orange)00",
-    "editorBracketMatch.border": "var(orange)"
+    "editorBracketMatch.border": "var(orange)",
+    "editorWidget.background": "var(darkblue)",
+    "sideBarSectionHeader.background": "var(darkblue)",
+    "editorIndentGuide.activeBackground1": "#47515b",
+    "editorIndentGuide.activeBackground2": "#47515b",
+    "editorIndentGuide.activeBackground3": "#47515b",
+    "editorIndentGuide.activeBackground4": "#47515b",
+    "editorIndentGuide.activeBackground5": "#47515b",
+    "editorIndentGuide.activeBackground6": "#47515b",
+    "editorIndentGuide.background1": "#47515b99",
+    "editorIndentGuide.background2": "#47515b99",
+    "editorIndentGuide.background3": "#47515b99",
+    "editorIndentGuide.background4": "#47515b99",
+    "editorIndentGuide.background5": "#47515b99",
+    "editorIndentGuide.background6": "#47515b99",
+    "editorBracketHighlight.foreground1": "var(orange)",
+    "editorBracketHighlight.foreground2": "var(pink)",
+    "editorBracketHighlight.foreground3": "var(blue5)",
+    "editorLineNumber.foreground": "#828b96",
+    "textLink.foreground": "var(blue-vibrant)",
+    "list.activeSelectionBackground": "#454a4e",
+    "list.activeSelectionForeground": "var(white)",
+    "list.inactiveSelectionBackground": "#454a4e",
+    "list.inactiveSelectionForeground": "var(white)",
+    "list.hoverBackground": "#292f35"
   },
   "tokenColors": [
     {
@@ -77,7 +101,7 @@
     },
     {
       "name": "String",
-      "scope": "string",
+      "scope": "string, support.type.property-name.json",
       "settings": { "foreground": "var(green)" }
     },
     {
@@ -189,7 +213,7 @@
     },
     {
       "name": "Tag name",
-      "scope": "entity.name.tag",
+      "scope": "entity.name.tag, support.class.component",
       "settings": { "foreground": "var(red)" }
     },
     {
@@ -360,7 +384,7 @@
     },
     {
       "name": "CSS Properties",
-      "scope": "support.type.property-name",
+      "scope": "support.type.property-name - support.type.property-name.json",
       "settings": { "foreground": "var(white3)" }
     },
     {
