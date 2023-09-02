@@ -1,12 +1,11 @@
 {
   "name": "mariana",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "displayName": "Mariana",
   "description": "Port of the default Sublime Text 4 theme",
   "publisher": "ryanolsonx",
   "repository": "https://github.com/ryanolsonx/vscode-mariana-theme",
   "license": "MIT",
-  "icon": "icon.png",
   "keywords": [
     "sublime text",
     "dark",
