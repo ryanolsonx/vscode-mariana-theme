@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import json
+
+
+with open(f'./themes/mariana-theme-template.json', 'r') as f:
+    vars = {}
+    file = f.read()
+    theme = json.loads(file)
+    vars = theme['variables']
+
+for var in vars.keys():
+    file = file.replace(f"var({var})", vars[var])
+
+with open(f'./themes/mariana-theme.json', 'w') as f:
+    f.write(file)
