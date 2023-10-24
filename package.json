@@ -1,6 +1,6 @@
 {
   "name": "mariana-by-ryan",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "displayName": "Mariana by Ryan",
   "description": "Port of the default Sublime Text 4 theme",
   "publisher": "ryanolsonx",
@@ -39,6 +39,11 @@
         "label": "Darcula",
         "uiTheme": "vs-dark",
         "path": "./themes/darcula-theme.json"
+      },
+      {
+        "label": "Quiet Light+",
+        "uiTheme": "vs",
+        "path": "./themes/quiet-theme.json"
       }
     ]
   }
